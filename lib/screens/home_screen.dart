@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: buildAppBar(context, sizeConfig),
-      body: Body(),
+      body: Body(config: sizeConfig),
     );
   }
 
